@@ -9,7 +9,8 @@
     align-items: center;
     text-align: center;
     color: white;
-    background-image: linear-gradient(90deg, rgba(255, 111, 0, 0.952)),rgba(46, 23, 96, 0.5);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.82),rgba(0, 0, 0, 0.237));
+    /* background-image: linear-gradient(180deg, #6411ada6, #d55d91); */
     position: relative;
     min-height: 100vh;
     overflow: hidden;
@@ -23,7 +24,11 @@
     min-width: 100%;
     min-height: 100%;
 }
-img{
-    width: 200px;
-    height: 100px;
+.zest-image{
+    width:100px;
 }
+img{
+   
+   width: 50%;
+   max-width: 566px;
+   height: auto;}
